@@ -1,0 +1,73 @@
+#profile{
+position: absolute;
+top: 10px;
+left: 80%;
+color: #fff;
+}
+
+.main {
+	margin: 30px;
+	width: 150px;
+	text-align: left;
+float: right;
+}
+label {
+	width: 80%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding:10px;
+	border:1px solid #000;
+	border-radius:3px;
+	box-shadow:0 1px 0 #555 inset, 0 1px 7px #111;
+	background:#2F4050;
+	font-size: 18px;
+	display : flex;
+	align-items: center;
+	flex-direction : row;
+}
+.list {
+	width: 89.9%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	visibility: hidden;
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	z-index : 99;
+}
+
+.list-4 {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+	background-color: #2F4050;
+	margin-top: -7px;
+	line-height: 35px;
+
+}
+#drop-4:checked~ .list-4 {
+	visibility: visible;
+	opacity: 2;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	cursor:pointer;
+	background:#2F4050;
+}
+
+.item{
+	padding: 10px;
+}
+.item:hover {
+background-color: #293846ed;
+
+}
+
+#profile img {
+	width:40px;
+	border:1px solid #111;
+	border-radius:3px;
+	box-shadow:0 0 3px rgba(0, 0, 0, 0.5) inset;
+	margin-right : 7px;
+}
