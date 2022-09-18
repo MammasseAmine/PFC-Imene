@@ -1,0 +1,14 @@
+nav{
+  background-color: #6b75b4;
+  height: 80px;
+}
+
+nav select{
+  height: 20px;
+  margin: 10px 30%;
+  width: 20%;
+  height: 40px;
+  position: relative;
+  left: 20%;
+}
+

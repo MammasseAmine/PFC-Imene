@@ -17,14 +17,12 @@ label {
 	top: 0px;
 	left: 0px;
 	padding:10px;
-	border:1px solid #000;
-	border-radius:3px;
-	box-shadow:0 1px 0 #555 inset, 0 1px 7px #111;
-	background:#2F4050;
 	font-size: 18px;
 	display : flex;
 	align-items: center;
 	flex-direction : row;
+	font-size: 20px;
+	white-space: nowrap;
 }
 .list {
 	width: 89.9%;
@@ -53,14 +51,14 @@ label {
 	-webkit-transform: translateY(0px);
 	transform: translateY(0px);
 	cursor:pointer;
-	background:#2F4050;
+	background:#6b75b4;
 }
 
 .item{
 	padding: 10px;
 }
 .item:hover {
-background-color: #293846ed;
+background-color: #2d3672;
 
 }
 

@@ -1,7 +1,8 @@
 import MaterialTable from 'material-table'
 
 import "./Accueil.css"
-import Sidebar from "../..//Components/SideBar/Sidebar"
+import Sidebar from "../../Components/SideBar/Sidebar"
+import Navbar from "../../Components/Navbar/Navbar"
 
 import AddBox from '@material-ui/icons/AddBox';
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
@@ -43,8 +44,11 @@ const tableIcons = {
 };
 
   return (
+    <>
+    <Navbar />
     <div id="accueil">
     <Sidebar />
+
        <MaterialTable
        icons={tableIcons}
        style = {{"marginTop": "40px","width":"70%","margin" : "auto"}}
@@ -69,7 +73,8 @@ const tableIcons = {
       }}
     />
     </div>
+    </>
   )
 }
 
-export default Accueil
+export default Accueil;
