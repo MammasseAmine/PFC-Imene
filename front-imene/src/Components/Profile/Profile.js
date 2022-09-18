@@ -9,7 +9,7 @@ const Profile = () => {
 
     <input type="checkbox" id="drop-4" hidden />
 
-    <label class="dropHeader dropHeader-4" for="drop-4"><img src={profile} alt ="profile image" /><span> Imene</span></label>
+    <label class="dropHeader dropHeader-4" for="drop-4"><img src={profile} alt ="profile" /><span> Imene</span></label>
     <div class="list list-4">
     <div class="item">User Profile</div>
     <div class="item">Setting</div>
